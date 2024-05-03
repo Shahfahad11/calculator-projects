@@ -1,0 +1,79 @@
+body{
+    background-color: darkgreen;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+main{
+    margin-top: 40px;
+}
+.container{
+    width:350px;
+    height:510px;
+    border: 2px black solid;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(26, 24, 24);
+    box-shadow:   8px 8px 8px gray ;
+}
+.cal-screen{
+    width:280px;
+    height:70px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(226, 247, 105);
+    margin-top: 18px;
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#all{
+    margin-top: 10px;
+}
+.all-btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width:320px;
+    height:400px;
+}
+.btn{
+    margin: 10px;
+}
+button{
+    box-shadow: 2px 2px 2px rgb(52, 52, 52) ;
+    margin: 7px;
+    background-color: rgb(62, 61, 61);
+    height: 54px;
+    width: 54px;
+    border-radius: 5px;
+    border: 1px solid rgb(43, 43, 43);
+    border-color: rgb(74, 74, 74) 3px;
+}
+.t{
+    margin-left: 12px;
+}
+.c-btn{
+    height: 54px;
+    width: 130px;
+    background-color: red;
+    box-shadow: 2px 2px 2px rgb(243, 3, 3) ;
+    border-color: rgb(201, 9, 9);   
+}
+.equal{
+    background-color: rgb(17, 168, 168);
+    box-shadow: 2px 2px 2px rgb(56, 116, 116) ;
+    border: 1px rgb(56, 116, 116);
+}
+.plus-btn{
+    height: 120px;
+    width: 54px;
+    position: fixed;
+    margin-left: 10px;
+    background-color: darkblue;   
+}
